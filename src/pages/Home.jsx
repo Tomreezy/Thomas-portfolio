@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import PreviousJobs from "../components/PreviousJobs"
 import Stack from "../components/Stack"
+import WebCreations from "../components/WebCreations"
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <main>
         <Stack />
         <PreviousJobs />
+        <WebCreations />
         </main>
     </div>
   )
