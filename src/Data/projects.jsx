@@ -1,15 +1,15 @@
-import {profilePic} from "../images/profile-1.jpg"
-import {profilePic1} from "../images/profile-2.png"
-import {profilePic2} from "../images/profile-3.png"
+import profilePic from "../images/profile-1.jpg"
+import profilePic1 from "../images/profile-2.png"
+import profilePic2 from "../images/profile-3.png"
 
-import {realEstate} from "../images/real-estate.png"
-import {realEstate1} from "../images/real-estate2.png"
-import {realEstate2} from "../images/real-estate3.png"
+import realEstate from "../images/real-estate.png"
+import realEstate1 from "../images/real-estate2.png"
+import realEstate2 from "../images/real-estate3.png"
 
 
-import {store} from "../images/store-1.jpg"
-import {store1} from "../images/store-2.png"
-import {store2} from "../images/store-3.png"
+import store from "../images/store-1.png"
+import store1 from "../images/store-2.png"
+import store2 from "../images/store-3.jpg"
 
 
 
