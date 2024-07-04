@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div>
-      scelo
+      scel
     </div>
   )
 }
