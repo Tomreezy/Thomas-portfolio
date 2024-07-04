@@ -6,7 +6,7 @@ import WebCreations from "../components/WebCreations"
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Header />
       <main>
         <Stack />

@@ -13,6 +13,7 @@ const PreviousJobs = () => {
 
   return (
     <section className="px-4 py-16  md:h-[90vh] ">
+        <div className="max-w-7xl mx-auto">
         <h2 className=" text-3xl  py-5" >Previous Employment</h2>
         <hr className="bg-gray-300 mb-8" />
         <div className="md:flex" >
@@ -24,6 +25,7 @@ const PreviousJobs = () => {
         
         <div>
             <EachJob list={history} index={indexC} />
+        </div>
         </div>
         </div>
     </section>
