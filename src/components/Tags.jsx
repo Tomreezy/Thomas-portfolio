@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 const Tags = ({label,to}) => {
   const[marghin,setMarghin]=useState(false)
     
-  console.log(label,to)
+
 
   return (
     <div>

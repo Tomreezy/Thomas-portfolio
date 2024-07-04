@@ -6,21 +6,25 @@ import EachJob from "./EachJob"
 const company = history.map(item=> item.company)
 
 const PreviousJobs = () => {
-    const[index,setIndex]=useState(0)
+    const[indexC,setIndex]=useState(0)
 
 
     
 
   return (
-    <section className="px-4 py-16">
-        <div className="text-center space-x-4">
+    <section className="px-4 py-16  md:h-[90vh] ">
+        <h2 className=" text-3xl  py-5" >Previous Employment</h2>
+        <hr className="bg-gray-300 mb-8" />
+        <div className="md:flex" >
+        <div className="md:text-left md:flex md:text-sm flex  md:flex-col items-center   md:w-1/4  gap-4 ">
             {company.map((job,index)=>(
-                <button onClick={()=> setIndex(index)} className="font-medium text-sm" key={index}>{`${job.toUpperCase()}`}</button>
+                <button onClick={()=> setIndex(index)} className={index===indexC?"md:border-l-green-400 w-full  transition text-center md:border-l-2 border-b-2  md:border-b-0 md:hover:border-l-2  hover:border-b-green-300 border-b-green-300 hover:text-green-400  font-medium" :"w-full md:border-l-green-400 p-2 hover:border-b-green-300  md:hover:border-l-2 hover:text-green-400 font-medium md:border-b-0 border-b-2 border-b-transparent  text-center"} key={index}>{`${job.toUpperCase()}`}</button>
             ))}
         </div>
-        <hr className="bg-gray-300 mb-8 mt-8" />
+        
         <div>
-            <EachJob list={history} index={index} />
+            <EachJob list={history} index={indexC} />
+        </div>
         </div>
     </section>
   )

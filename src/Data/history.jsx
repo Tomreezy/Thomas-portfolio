@@ -2,7 +2,7 @@
 
 export  const history=[
     {
-        company:"Web solutions",
+        company:"Web Solutions",
         title:"Frontend-Developer Wordpress  ",
         duration:"Feb 2020-Dec 2020",
         duties:["Creating custom WordPress themes from scratch or modifying existing themes to meet client or project requirements"
