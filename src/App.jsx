@@ -1,15 +1,20 @@
-import Header from "./components/Header"
-import Stack from "./components/Stack"
+import Navbar from "./components/Navbar"
+import { Route,Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import Portfolio from "./pages/Portfolio"
 
 
 function App() {
   
   return (
     <div>
-      <Header />
-      <main>
-        <Stack />
-        </main>
+      <Navbar />
+      <Routes>
+        <Route path="/"  element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />}  />
+      </Routes>
+
+      
     </div>
   )
 }

@@ -1,5 +1,5 @@
 
-import { stack } from "../Data/data"
+import { stack } from "../Data/skills"
 import SingleSkill from "./SingleSkill"
 
 const Stack = () => {
